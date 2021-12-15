@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-S3-WROOM-1
+D RF Module, ESP32-s3 SoC, WiFi 802.11b/g/n, BLE 5.0, Transceiver Module 2.4GHz PCB Trace Surface Mount
+$ENDCMP
+#
+#End Doc Library
