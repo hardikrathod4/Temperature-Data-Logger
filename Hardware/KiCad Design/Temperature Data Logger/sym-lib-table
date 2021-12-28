@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Temperature_Data_Logger)(type Legacy)(uri ${KIPRJMOD}/LIB/Temperature_Data_Logger.lib)(options "")(descr ""))
+  (lib (name Temperature-Data-Logger-rescue)(type Legacy)(uri "${KIPRJMOD}/Temperature Data Logger-rescue.lib")(options "")(descr ""))
 )

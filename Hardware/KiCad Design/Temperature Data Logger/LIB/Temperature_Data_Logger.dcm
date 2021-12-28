@@ -9,4 +9,10 @@ D Cold-Junction-Compensated K-Thermocouple to Digital Converter, SOIC-8
 K SPI
 $ENDCMP
 #
+$CMP TS665CJ
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 #End Doc Library
