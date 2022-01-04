@@ -1,1 +1,1 @@
-This is KiCad 6.0 project.
+KiCad 6.0 project
