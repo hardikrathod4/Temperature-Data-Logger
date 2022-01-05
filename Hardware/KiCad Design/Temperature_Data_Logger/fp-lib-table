@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Temperature Data Logger")(type "KiCad")(uri "${KIPRJMOD}/LIB/Temperature Data Logger.pretty")(options "")(descr ""))
+)

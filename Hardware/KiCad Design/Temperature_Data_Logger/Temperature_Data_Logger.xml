@@ -1,0 +1,2410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Projects\Temperature Data Logger\Temperature-Data-Logger\Hardware\KiCad Design\Temperature_Data_Logger\Temperature_Data_Logger.kicad_sch</source>
+    <date>04/01/2022 22:19:57</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>8 Channel K Thermocouple Temperature Data Logger</title>
+        <company>OPENSOURCE (MIT License)</company>
+        <rev>0.99</rev>
+        <date>2021-12-30</date>
+        <source>Temperature_Data_Logger.kicad_sch</source>
+        <comment number="1" value="https://github.com/hardikrathod4/Temperature-Data-Logger"/>
+        <comment number="2" value="by: Hardik Rathod"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BZ1">
+      <value>PS1240P02BT</value>
+      <footprint>Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm</footprint>
+      <fields>
+        <field name="LCSC">C76871</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="LCSC" value="C76871"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4016004-dc80-4dea-8e6b-d39f67a11e91</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fb2fc1b-e487-448c-9c2e-5914142875b8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abb935cf-660a-42e2-a560-f37051c1fd84</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf7e65b1-3023-40e6-896e-31bf3691b25a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be713338-c302-4460-87c2-a36656c40ad8</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0511161a-5c02-4a4e-933e-c0073df27e6d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59b795b3-d2d9-46e5-a93b-1ee5b27a972f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d10cbd9-b709-4a58-ab5d-11b06faad8b7</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1653</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1653"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d11b5b5e-c5d9-4e40-adfc-f40f60ee9395</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1653</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1653"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49b80a7e-9b5d-49dc-a4e9-9d6ea17c741b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31df038e-2d11-44b9-9926-729157a584f8</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad68506e-1104-4963-8f84-f595870afa6f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d83b643-5e42-4c97-90c9-39e93fec2ef7</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb77dad-b5ae-4eb4-a75a-e7cce5c6fedf</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7099647-1772-4ddd-a991-26dd960b22b5</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa750c59-9508-45f8-9286-b5cc61703354</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6b77e72-7582-49d9-bc3d-54fac445a1b1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>0603ESDA-05N</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C316054</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C316054"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc9a8693-cb36-4ab3-99a0-6cae1cc8dd5a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>0603ESDA-05N</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C316054</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C316054"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f326555e-7644-4db4-923a-9a8512644121</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff4967ee-78e5-4431-9080-600838b27c59</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcc8386b-caca-41d4-a72f-ae4c33d1751c</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>0603ESDA-05N</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C316054</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C316054"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e68ef1aa-98e6-4a48-9639-ad7a7fcb84aa</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>GREEN</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <fields>
+        <field name="LCSC">C559113</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C559113"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17546b63-a656-4e51-aca8-b92b92131d44</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>GREEN</value>
+      <footprint>LED_THT:LED_D3.0mm_Clear</footprint>
+      <fields>
+        <field name="LCSC">C559113</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C559113"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fb625cd-c981-4ca4-b193-b4fe6d4b62c7</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05cbe245-4003-4757-ba8b-c7c5f30f53d0</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8edef603-05e7-4629-8eb1-eedf3dff4381</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28f94820-4629-40e2-9a4f-b7fc43c8c8cf</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdc3962b-1efb-478e-a5d1-c686e458a3c9</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93a5fb08-403b-47aa-aaba-8d183804ca99</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eb41bae-cd47-4da1-9578-72a85fea2e1f</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f22b6a53-e0bf-4367-a668-c5278706c3ff</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>UDD32C03L01</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C78439</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS_Filled" description="Bidirectional transient-voltage-suppression diode, filled shape"/>
+      <property name="LCSC" value="C78439"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de139d9c-31e0-43b4-9b6f-285ffe073577</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>2.5MM</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f61317cd-c9fa-48a0-aac3-993484029ffc</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>2.5MM</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dff26fee-5bcd-4ffc-9eaf-4ea5f6dd7400</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>2.5MM</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2a52aaf-496a-4328-a304-43f96c43df77</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>2.5MM</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad_Via</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70c17404-aefc-46e3-9d1e-ca8cf1065d5e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>2.54MM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C358686</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C358686"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30e16f4b-a1c6-4d0b-ab39-66578867ba78</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>2.54MM</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C358686</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C358686"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b54a27d-ae26-485b-a48f-92b6373ddf55</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>10118194-0001LF</value>
+      <footprint>Temperature Data Logger:USB_Micro-B_Amphenol_10118194_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C132563</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSC" value="C132563"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acae05a4-0318-462c-9410-f2ee6a02fae0</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3228c638-61da-4a53-9020-8b25d65175eb</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38204e3f-965a-4980-b17b-9d544d4726f5</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b3c577f-164c-40cc-97b6-4587e348c729</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02a6e640-da85-4081-9e8e-54314173f5c3</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4bacd51-e2fe-4135-ad94-5a230337c99b</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efc30c00-d729-4990-8bf7-fd1ebdb4720e</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4e24237-0cab-4038-99df-e850e847c124</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>KF2EDGR-3.81-2P</value>
+      <footprint>Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC">C441182</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C441182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12d083ed-9b94-4c91-be36-de3fdd135c0a</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>JMP_NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8b02f6a-e3b8-4a3c-97bf-3a3e88b601e5</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>JMP_NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c511ded-5969-4db2-bd70-3ffa5d5f5418</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>JMP_NO</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2adf658b-552f-4b22-a8ec-e2a99545b800</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>100Z 3A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C307769</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C307769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32fcbfca-971b-453f-a08b-a2be2cf59695</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>100Z 3A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C307769</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C307769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e3943b1-4d38-44ca-b585-aad6bdb730f8</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e46085a-9479-428c-8b50-880847a8b602</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>100Z 3A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C307769</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C307769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2fe5947-9cab-4675-8b4e-bc9c39578bad</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99307b62-4be8-484f-afbf-602ae005a98e</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65ca688c-2fba-46c8-9c9c-b38b73ad780a</tstamps>
+    </comp>
+    <comp ref="L7">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4655cc10-1fa4-4716-88cd-06c6c00e0a42</tstamps>
+    </comp>
+    <comp ref="L8">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>263fbcdf-32fc-47b5-9643-4d945539e495</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9915a45a-47b0-4088-818d-03968bcf6878</tstamps>
+    </comp>
+    <comp ref="L10">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8eccd46-48fc-4dd0-abd3-04f56219f2ee</tstamps>
+    </comp>
+    <comp ref="L11">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cb3114f-38a4-412d-8c12-01fa53f5910a</tstamps>
+    </comp>
+    <comp ref="L12">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5245d98-88ad-4403-a963-7fafa55b7328</tstamps>
+    </comp>
+    <comp ref="L13">
+      <value>600Z 0.2A</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1002</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite_Small" description="Inductor with ferrite core, small symbol"/>
+      <property name="LCSC" value="C1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db5e7484-dd5d-477b-9072-50ae90472087</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SS8050</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C2150</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <property name="LCSC" value="C2150"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea7f3b2c-25d6-4cd6-a736-f9710f013e1f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8f0ce61-0689-4e5d-b1bb-5d26055b66d4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dde6ed6f-7a3e-408b-bb01-df5579a03b96</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7cdb605-711e-4611-b56c-1393105a5048</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0651a752-2e7d-4fbf-a68e-0371f1eb78f1</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c7f07e5-2204-46fc-87a5-885409ffe732</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cb6cbc2-d65b-4995-8c4d-1f736c12597a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3a7841a-e0c6-42f0-b8cf-d4212abf8c31</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f93fb2ff-d4ab-4a07-b0f1-f95ea1a0369a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6802ae15-c6dd-41e5-8b42-58496a815637</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06152ca9-8688-42fa-a575-8f095f3837e1</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b62a1d59-30d5-407b-8374-bddde6b79791</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a99063c-199f-4574-a25d-708cd5352648</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b5ff4cd-ea64-41a6-a27d-6edfdf92cd74</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C22962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dff54c0a-5d50-45f5-9711-ae40777c595b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4c9e71b-e751-4405-99d3-c4315e41d188</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c78f5792-c77a-47ef-9142-18919ac35082</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76141fc8-eb77-4f05-ab9b-7dbaa1fe414f</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e97f8ec-03b8-4bfb-afc3-72d6d34dc0ec</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21189</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da110e7c-1895-492f-b552-b6fcc9681d79</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22787</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C22787"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aec34dcf-4fd4-41b2-8bf7-a10fdef831ac</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38dd7a0-2b9e-476c-b632-2907dd07a88d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31595d48-74a4-4896-803c-29e7df34b549</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0a2b0ff-6553-4a07-808a-46ebc3d155bd</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b2a835a-a2b7-4ec7-b0df-6ceeb4980b77</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22787</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C22787"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7687d93a-d34e-4c11-9784-88f2575d5ccb</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1101-C-W</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <fields>
+        <field name="LCSC">C318938</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318938"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f55b5c-fb63-47c1-b103-6c66aa9d7807</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>TS-1101-C-W</value>
+      <footprint>Button_Switch_SMD:SW_SPST_CK_RS282G05A3</footprint>
+      <fields>
+        <field name="LCSC">C318938</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC" value="C318938"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e6cbc39-cd1b-429c-87e9-fe2ad26d3507</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>VDG-08HG-R</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm</footprint>
+      <fields>
+        <field name="LCSC">C3663</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="LCSC" value="C3663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>071b4a33-3950-468e-b576-97705e694f79</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9f93fb3-7ced-4059-90cb-aad416d993c2</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>396a4260-a2a2-4915-8e46-e45b012de968</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c704142-c3c6-4157-abce-bcc0cd9d8ae9</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa11e936-cdab-420f-a78f-caa32c69260a</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d30fc1ad-cdb6-40ca-8be8-e2e57956277d</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e80acb0-efad-4a60-ad2e-8d2deb8fa513</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>970fc4ef-4a28-452a-bf32-504a1500cb11</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TP</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6c9889a-501b-42c0-9904-ef4937da07f5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HT8574BRWZ</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C2834482</field>
+      </fields>
+      <libsource lib="Interface_Expansion" part="PCF8574" description="8 Bit Port/Expander to I2C Bus, DIP/SOIC-16"/>
+      <property name="LCSC" value="C2834482"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5be48e87-cbbe-4535-994d-7af4d609224b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-WROOM-32E</value>
+      <footprint>Temperature Data Logger:ESP32-WROOM-32E</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf</datasheet>
+      <libsource lib="Temperature_Data_Logger" part="ESP32-WROOM-32E" description="ESP32-WROVER-E and ESP32-WROVER-IE are two powerful, generic WiFi-BT-BLE MCU modules that target a wide variety of applications, ranging from low-power sensor networks to the most demanding tasks, such as voice encoding, music streaming and MP3 decoding. ESP32-WROVER-E comes with a PCB antenna, and ESP32-WROVER-IE with an IPEX antenna. They both featurea 4 MB external SPI flash and an additional 8 MB SPI Pseudo static RAM (PSRAM)."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8bc97a6-1762-4f34-b3c2-41aaf4f33b5f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CH340G</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.datasheet5.com/pdf-local-2195953</datasheet>
+      <fields>
+        <field name="LCSC">C14267</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CH340G" description="USB serial converter, UART, SOIC-16"/>
+      <property name="LCSC" value="C14267"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac30e386-51f5-41eb-a8ce-1dd6f020c317</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>OLED_I2C_0_96IN</value>
+      <footprint>Temperature Data Logger:Display_128x64_096_I2C</footprint>
+      <libsource lib="Temperature_Data_Logger" part="OLED_I2C_0_96IN" description="0.96&quot; OLED Display, I2C"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a9b8f04-0815-4f90-a0aa-63957ac7887c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MAX6675</value>
+      <footprint>Temperature Data Logger:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C16030</field>
+      </fields>
+      <libsource lib="Temperature_Data_Logger" part="MAX6675" description="Cold-Junction-Compensated K-Thermocouple to Digital Converter, SOIC-8"/>
+      <property name="LCSC" value="C16030"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dac857bd-d2fe-4c0a-a82c-2b43d1c4927c</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="LCSC" value="C6186"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05cdcb9b-1c23-46c6-91cd-4a8a325e3f0b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74HC4051</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C9386</field>
+      </fields>
+      <libsource lib="74xx" part="74HC4051" description="8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"/>
+      <property name="LCSC" value="C9386"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c00c3a2-9f57-4f0f-b057-9dba9fb00c19</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC">C9002</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="LCSC" value="C9002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Temperature_Data_Logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79838b19-7c77-4cad-8ee7-71308566f198</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC4051">
+      <description>8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC4051</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A4" type="passive"/>
+        <pin num="2" name="A6" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="A7" type="passive"/>
+        <pin num="5" name="A5" type="passive"/>
+        <pin num="6" name="~{E}" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="A3" type="passive"/>
+        <pin num="13" name="A0" type="passive"/>
+        <pin num="14" name="A1" type="passive"/>
+        <pin num="15" name="A2" type="passive"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Alt">
+      <description>test point (alternative shape)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Alt</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS_Filled">
+      <description>Bidirectional transient-voltage-suppression diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite_Small">
+      <description>Inductor with ferrite core, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="PCF8574">
+      <description>8 Bit Port/Expander to I2C Bus, DIP/SOIC-16</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCF8574</field>
+        <field name="Datasheet">http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="P0" type="bidirectional"/>
+        <pin num="5" name="P1" type="bidirectional"/>
+        <pin num="6" name="P2" type="bidirectional"/>
+        <pin num="7" name="P3" type="bidirectional"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="P4" type="bidirectional"/>
+        <pin num="10" name="P5" type="bidirectional"/>
+        <pin num="11" name="P6" type="bidirectional"/>
+        <pin num="12" name="P7" type="bidirectional"/>
+        <pin num="13" name="~{INT}" type="open_collector"/>
+        <pin num="14" name="SCL" type="input"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CH340G">
+      <description>USB serial converter, UART, SOIC-16</description>
+      <docs>http://www.datasheet5.com/pdf-local-2195953</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340G</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.datasheet5.com/pdf-local-2195953</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="passive"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="XI" type="input"/>
+        <pin num="8" name="XO" type="output"/>
+        <pin num="9" name="~{CTS}" type="input"/>
+        <pin num="10" name="~{DSR}" type="input"/>
+        <pin num="11" name="~{RI}" type="input"/>
+        <pin num="12" name="~{DCD}" type="input"/>
+        <pin num="13" name="~{DTR}" type="output"/>
+        <pin num="14" name="~{RTS}" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x08">
+      <description>8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Temperature_Data_Logger" part="ESP32-WROOM-32E">
+      <description>ESP32-WROVER-E and ESP32-WROVER-IE are two powerful, generic WiFi-BT-BLE MCU modules that target a wide variety of applications, ranging from low-power sensor networks to the most demanding tasks, such as voice encoding, music streaming and MP3 decoding. ESP32-WROVER-E comes with a PCB antenna, and ESP32-WROVER-IE with an IPEX antenna. They both featurea 4 MB external SPI flash and an additional 8 MB SPI Pseudo static RAM (PSRAM).</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32E</field>
+        <field name="Footprint">Temperature Data Logger:ESP32-WROOM-32E</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN/CHIP_PU" type="input"/>
+        <pin num="4" name="GPIO36/SENSOR_VP/ADC1_CH0" type="input"/>
+        <pin num="5" name="GPIO39/SENSOR_VN/ADC1_CH3" type="input"/>
+        <pin num="6" name="GPIO34/ADC1_CH6" type="input"/>
+        <pin num="7" name="GPIO35/ADC1_CH7" type="input"/>
+        <pin num="8" name="GPIO32/32K_XP/ADC1_CH4" type="bidirectional"/>
+        <pin num="9" name="GPIO33/32K_XN/ADC1_CH5" type="bidirectional"/>
+        <pin num="10" name="GPIO25/DAC_1/ADC2_CH8" type="bidirectional"/>
+        <pin num="11" name="GPIO26/DAC_2/ADC2_CH9" type="bidirectional"/>
+        <pin num="12" name="GPIO27/ADC2_CH7" type="bidirectional"/>
+        <pin num="13" name="MTMS/GPIO14/ADC2_CH6" type="bidirectional"/>
+        <pin num="14" name="MTDI/GPIO12/ADC2_CH5" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="MTCK/GPIO13/ADC2_CH4" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="NC" type="no_connect"/>
+        <pin num="19" name="NC" type="no_connect"/>
+        <pin num="20" name="NC" type="no_connect"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="MTDO/GPIO15/ADC2_CH3" type="bidirectional"/>
+        <pin num="24" name="GPIO2/ADC2_CH2" type="bidirectional"/>
+        <pin num="25" name="BOOT/GPIO0/ADC2_CH1" type="bidirectional"/>
+        <pin num="26" name="GPIO4/ADC2_CH0" type="bidirectional"/>
+        <pin num="27" name="GPIO16/U2RXD" type="bidirectional"/>
+        <pin num="28" name="GPIO17/U2TXD" type="bidirectional"/>
+        <pin num="29" name="GPIO5/VSPI_CS" type="bidirectional"/>
+        <pin num="30" name="GPIO18/VSPI_SCK" type="bidirectional"/>
+        <pin num="31" name="GPIO19/VSPI_MISO" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="GPIO21/I2C_SDA" type="bidirectional"/>
+        <pin num="34" name="U0RXD/GPIO3" type="bidirectional"/>
+        <pin num="35" name="U0TXD/GPIO1" type="bidirectional"/>
+        <pin num="36" name="GPIO22/I2C_SCL" type="bidirectional"/>
+        <pin num="37" name="GPIO23/VSPI_MOSI" type="bidirectional"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Temperature_Data_Logger" part="MAX6675">
+      <description>Cold-Junction-Compensated K-Thermocouple to Digital Converter, SOIC-8</description>
+      <footprints>
+        <fp>*SOP*3.9x4.9mm*P0.635mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6675</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="input"/>
+        <pin num="3" name="T+" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="CSn" type="input"/>
+        <pin num="7" name="SO" type="bidirectional"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Temperature_Data_Logger" part="OLED_I2C_0_96IN">
+      <description>0.96" OLED Display, I2C</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OLED_I2C_0_96IN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Interface_USB.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Temperature_Data_Logger">
+      <uri>E:\Projects\Temperature Data Logger\Temperature-Data-Logger\Hardware\KiCad Design\Temperature_Data_Logger/LIB/Temperature_Data_Logger.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="L4" pin="2" pintype="passive"/>
+      <node ref="L5" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="/BOOT">
+      <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="BOOT/GPIO0/ADC2_CH1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/EN">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN/CHIP_PU" pintype="input"/>
+    </net>
+    <net code="5" name="/ESP_CSn">
+      <node ref="U2" pin="29" pinfunction="GPIO5/VSPI_CS" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="CSn" pintype="input"/>
+    </net>
+    <net code="6" name="/ESP_MISO">
+      <node ref="U2" pin="31" pinfunction="GPIO19/VSPI_MISO" pintype="bidirectional"/>
+      <node ref="U5" pin="7" pinfunction="SO" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ESP_RXD2">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="8" name="/ESP_SCK">
+      <node ref="U2" pin="30" pinfunction="GPIO18/VSPI_SCK" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="9" name="/ESP_TXD2">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="10" name="/I2C_SCL">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="36" pinfunction="GPIO22/I2C_SCL" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="11" name="/I2C_SDA">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="33" pinfunction="GPIO21/I2C_SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/IO2">
+      <node ref="U2" pin="24" pinfunction="GPIO2/ADC2_CH2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/IO25">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="S2" pintype="input"/>
+    </net>
+    <net code="14" name="/IO26">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="15" name="/IO27">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="16" name="/IO33">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="~{E}" pintype="input"/>
+    </net>
+    <net code="17" name="/IO34">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPIO34/ADC1_CH6" pintype="input"/>
+    </net>
+    <net code="18" name="/IO35">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{INT}" pintype="open_collector"/>
+      <node ref="U2" pin="7" pinfunction="GPIO35/ADC1_CH7" pintype="input"/>
+    </net>
+    <net code="19" name="/IO36">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GPIO36/SENSOR_VP/ADC1_CH0" pintype="input"/>
+    </net>
+    <net code="20" name="/RXD0">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/TXD0">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J3" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="T-" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="25" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="XI" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="XO" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="V3" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="29" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="30" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="T+" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="32" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="L5" pin="2" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L6" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L7" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L8" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L9" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L10" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L11" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L12" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L13" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(L6-Pad1)">
+      <node ref="L6" pin="1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(L7-Pad1)">
+      <node ref="L7" pin="1" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(L8-Pad1)">
+      <node ref="L8" pin="1" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(L9-Pad1)">
+      <node ref="L9" pin="1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(L10-Pad1)">
+      <node ref="L10" pin="1" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(L11-Pad1)">
+      <node ref="L11" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="A5" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(L12-Pad1)">
+      <node ref="L12" pin="1" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="A6" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(L13-Pad1)">
+      <node ref="L13" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="A7" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="34" pinfunction="U0RXD/GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="35" pinfunction="U0TXD/GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GPIO33/32K_XN/ADC1_CH5" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="3" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="4" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="5" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="6" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="7" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="8" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="GPIO17/U2TXD" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="GPIO16/U2RXD" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="GPIO27/ADC2_CH7" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GPIO26/DAC_2/ADC2_CH9" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="GPIO25/DAC_1/ADC2_CH8" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="Net-(SW3-Pad9)">
+      <node ref="SW3" pin="9" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="P7" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="Net-(SW3-Pad10)">
+      <node ref="SW3" pin="10" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="P6" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="Net-(SW3-Pad11)">
+      <node ref="SW3" pin="11" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="P5" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="Net-(SW3-Pad12)">
+      <node ref="SW3" pin="12" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="P4" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="Net-(SW3-Pad13)">
+      <node ref="SW3" pin="13" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="P3" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="Net-(SW3-Pad14)">
+      <node ref="SW3" pin="14" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="P2" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(SW3-Pad15)">
+      <node ref="SW3" pin="15" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="P1" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Net-(SW3-Pad16)">
+      <node ref="SW3" pin="16" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P0" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="Net-(TP4-Pad1)">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="GPIO23/VSPI_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="Net-(TP5-Pad1)">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="MTMS/GPIO14/ADC2_CH6" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="Net-(TP6-Pad1)">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="MTDI/GPIO12/ADC2_CH5" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="Net-(TP7-Pad1)">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="MTCK/GPIO13/ADC2_CH4" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="Net-(TP8-Pad1)">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="MTDO/GPIO15/ADC2_CH3" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="GPIO39/SENSOR_VN/ADC1_CH3" pintype="input+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="GPIO32/32K_XP/ADC1_CH4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U2-Pad20)">
+      <node ref="U2" pin="20" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U2-Pad21)">
+      <node ref="U2" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U2-Pad22)">
+      <node ref="U2" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U2-Pad26)">
+      <node ref="U2" pin="26" pinfunction="GPIO4/ADC2_CH0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2-Pad32)">
+      <node ref="U2" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="~{DTR}" pintype="output+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="~{RTS}" pintype="output+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="R232" pintype="input+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
