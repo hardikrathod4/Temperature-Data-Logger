@@ -411,7 +411,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "DOC/Temperature_Data_Logger.step",
-      "vrml": ""
+      "vrml": "Temperature_Data_Logger.wrl"
     },
     "page_layout_descr_file": ""
   },

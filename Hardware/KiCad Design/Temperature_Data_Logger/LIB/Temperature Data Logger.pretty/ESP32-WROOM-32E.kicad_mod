@@ -1,6 +1,6 @@
 (footprint "ESP32-WROOM-32E" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CAEC73)
+  (tedit 61DABA4E)
   (descr "ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf")
   (tags "ESP32")
   (attr smd)
@@ -82,7 +82,7 @@
   (pad "37" smd rect (at 8.75 -5.74 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1d414738-a3fd-445c-b021-19be31ea7642))
   (pad "38" smd rect (at 8.75 -7.01 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dcb3a801-3b34-412d-89be-fb3f92501310))
   (pad "39" thru_hole rect (at -0.68 0.33) (size 2.5 2.5) (drill 1.6) (layers *.Cu *.Mask) (tstamp 5a8f576d-78cd-421f-a57a-03d0dabce53b))
-  (model "E:/Projects/Temperature Data Logger/Temperature-Data-Logger/Hardware/Datasheets/ESP32-WROOM-32E/ESP32-WROOM-32E_20210903_0.STEP"
+  (model "E:/Projects/Temperature_Data_Logger/Temperature-Data-Logger/Hardware/Datasheets/ESP32-WROOM-32E/ESP32-WROOM-32E_20210903_0.STEP"
     (offset (xyz -9 -11 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,6 +1,6 @@
 (footprint "Display_128x64_096_I2C" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D41C09)
+  (tedit 61DAC033)
   (descr "Display 0.96\" OLED 128x64 pixel with SSD1306 controller and I2C interface")
   (tags "display OLED SSD1306 128x64")
   (attr through_hole)
@@ -57,12 +57,12 @@
   (pad "2" thru_hole oval (at -1.27 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp fe596695-6d84-40dd-b76e-1fcf5d239d38))
   (pad "3" thru_hole oval (at 1.27 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp b7b3dcac-c333-4ab5-bd50-98c2fdb91890))
   (pad "4" thru_hole oval (at 3.81 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp dc287184-4717-4ae4-aba5-70a4bf1dd270))
-  (model "C:/Users/hardi/Downloads/ER-OLEDM0.96-1-I2C_3D/ER-OLEDM0.96-1-I2C_3D.stp"
-    (offset (xyz 0 -12 2.7))
+  (model "E:/Projects/Temperature_Data_Logger/Temperature-Data-Logger/Hardware/Datasheets/3D models/128x64I2COLEDDisplayAdafruit.step"
+    (offset (xyz 34.3 -7.2 2.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step" hide
     (offset (xyz 3.8 0 2.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 90))
