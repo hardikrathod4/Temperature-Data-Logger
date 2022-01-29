@@ -61,8 +61,8 @@
       35,
       36
     ],
-    "visible_layers": "ffdffcf_7ffffff9",
-    "zone_display_mode": 0
+    "visible_layers": "ffdffcf_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "Temperature_Data_Logger.kicad_prl",
