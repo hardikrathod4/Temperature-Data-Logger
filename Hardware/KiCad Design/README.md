@@ -1,1 +1,2 @@
-KiCad 6.0 project
+# NOTE
+It isn't recommended to use older version of the project.
